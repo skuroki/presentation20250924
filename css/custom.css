@@ -1,0 +1,91 @@
+/* カスタムCSS - 必要に応じて調整してください */
+
+/* 日本語フォントの設定 */
+.reveal {
+  font-family: "Hiragino Kaku Gothic ProN", "Hiragino Sans", Meiryo, sans-serif;
+}
+
+/* タイトルスライドのカスタマイズ */
+.reveal h1,
+.reveal h2,
+.reveal h3,
+.reveal h4,
+.reveal h5,
+.reveal h6 {
+  font-family: "Hiragino Kaku Gothic ProN", "Hiragino Sans", Meiryo, sans-serif;
+  line-height: 1.2;
+}
+
+/* コードブロックのカスタマイズ */
+.reveal pre {
+  font-size: 0.8em;
+  line-height: 1.2;
+}
+
+.reveal code {
+  font-family: "Monaco", "Menlo", "Ubuntu Mono", monospace;
+}
+
+/* リストのスタイル調整 */
+.reveal ul,
+.reveal ol {
+  margin-left: 1em;
+}
+
+/* フラグメントのカスタマイズ */
+.reveal .fragment.highlight-current-blue {
+  opacity: 1;
+  visibility: inherit;
+}
+
+.reveal .fragment.highlight-current-blue.current-fragment {
+  color: #42affa;
+}
+
+/* スピーカーノートのスタイル */
+.reveal aside.notes {
+  display: none;
+}
+
+/* カスタムクラス例 */
+.reveal .emphasis {
+  color: #e74c3c;
+  font-weight: bold;
+}
+
+.reveal .highlight {
+  background-color: #f39c12;
+  color: #2c3e50;
+  padding: 0.2em 0.4em;
+  border-radius: 4px;
+}
+
+/* 画像のレスポンシブ対応 */
+.reveal img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* テーブルのスタイル */
+.reveal table {
+  margin: auto;
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.reveal table th,
+.reveal table td {
+  text-align: left;
+  padding: 0.2em 0.5em 0.2em 0.5em;
+  border-bottom: 1px solid;
+}
+
+/* プログレスバーのカスタマイズ */
+.reveal .progress {
+  color: #e74c3c;
+}
+
+/* コントロールボタンのカスタマイズ */
+.reveal .controls {
+  color: #e74c3c;
+}
